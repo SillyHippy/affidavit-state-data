@@ -12,7 +12,7 @@ JSON datasets for generating **affidavits and declarations of service** that mat
 
 ## Provenance & verification
 
-- Research compiled **2026-10-24** from each state's **primary sources** (rules of civil procedure, state statutes, official court form pages). Qualification data was last touched **2026-11-09** (verified citation corrections ported: MO/OR/FL/MT/WI/IN/GA/NJ/NM/NE/SC).
+- Research compiled **2026-10-24** from each state's **primary sources** (rules of civil procedure, state statutes, official court form pages). Qualification data last touched **2026-11-23** (prior verified ports: MO/OR/FL/MT/WI/IN/GA/NJ/NM/NE/SC; re-verified 2026-11-23 vs primary sources: UT SB 149 PI-disclosure + return-ID clauses; WY 9/21/26 alternative-service rewrite with exact 4(n)(2) quote; NJ R. 4:4-4(a)(9); MS 2026-07-01 MRCP; OK SB 1876; TX JBCC 26-9067).
 - Three research passes. A `verified: true` flag means the fact was confirmed against the primary source URL recorded on the fact itself; anything unconfirmed stays `verified: false` and the consuming engine **falls back fail-closed** (defaults to a notarized affidavit).
 - Counties file compiled **2026-10-16**.
 
