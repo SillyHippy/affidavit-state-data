@@ -1,0 +1,527 @@
+{
+  "AL": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to the above-entitled action, and not related within the third degree by blood or marriage to the party instituting this action (Ala. R. Civ. P. 4(i)(1)(B)).",
+    "requiredFooterFields": [
+      "serverSignature",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "AK": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am a person authorized to serve civil process in the State of Alaska \u2014 a Civilian Process Server licensed by the Alaska Department of Public Safety under 13 AAC 67 (License No. {{licenseNumber}}) or specially appointed by the Court \u2014 over the age of eighteen (18) years, and not a party to this action.",
+    "requiredFooterFields": [
+      "licenseNumber",
+      "serviceFee",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "AR": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action, and duly appointed to serve civil process by Administrative Order No. 20 of the Circuit Court pursuant to Ark. R. Civ. P. 4(c)(2).",
+    "requiredBodyClauses": [
+      "cameToHandDate"
+    ],
+    "requiredFooterFields": [
+      "appointmentCircuit",
+      "appointmentOrderNumber",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "AZ": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, state that I am a Certified Private Process Server registered in {{registrationCounty}} County, State of Arizona (Registration No. {{licenseNumber}}), not a party to this action, and not less than twenty-one (21) years of age (Ariz. R. Civ. P. 4(d); ACJA \u00a7 7-204).",
+    "requiredBodyClauses": [
+      "cameToHandDateTime",
+      "serviceFeeBreakdown"
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "registrationCounty",
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "CA": {
+    "qualificationText": "At the time of service I was at least 18 years of age and not a party to this action. I am a Registered California Process Server (Registration No. {{licenseNumber}}) or exempt from registration under Cal. Bus. & Prof. Code \u00a7 22350(b). My address and telephone number are stated below, and my fee for service was as recorded by the firm.",
+    "requiredBodyClauses": [
+      "serviceFeeBreakdown"
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "serverPhone",
+      "licenseNumber",
+      "registrationCounty",
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "CO": {
+    "qualificationText": "I, {{serverName}}, declare that I am eighteen (18) years of age or older and not a party to this action (C.R.C.P. 4(d)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "CT": {
+    "qualificationText": "STATE OF CONNECTICUT, SS: Then and there, by virtue hereof and by direction of the Plaintiff's attorney, I, {{serverName}}, a duly authorized State Marshal, Constable, or Indifferent Person under Conn. Gen. Stat. \u00a7 52-50, or a person authorized by law to serve process in the jurisdiction of service under Conn. Gen. Stat. \u00a7 52-57a, made due and legal service upon the recipient by leaving a true and attested copy of the original process, with my doings thereon endorsed.",
+    "requiredBodyClauses": [
+      "The within and foregoing is the original process with my doings hereon endorsed.",
+      "FEES: itemized per Conn. Gen. Stat. \u00a7 52-261."
+    ],
+    "requiredFooterFields": [
+      "officerTitle",
+      "itemizedStatutoryFees",
+      "mileage"
+    ],
+    "generalUnswornStatuteAvailable": false,
+    "qualificationTextUnserved": "I, {{serverName}}, a duly authorized State Marshal, Constable, or Indifferent Person under Conn. Gen. Stat. \u00a7 52-50, or a person authorized by law to serve process in the jurisdiction of service under Conn. Gen. Stat. \u00a7 52-57a, over the age of eighteen (18) years and not a party to this action, received the original process for service by direction of the Plaintiff's attorney and have made due and diligent efforts to effect service, as more fully appears by my doings hereon endorsed."
+  },
+  "DC": {
+    "qualificationText": "I, {{serverName}}, declare that I am at least eighteen (18) years of age and not a party to the above-entitled action (D.C. Super. Ct. R. Civ. P. 4(c)(2)). My residence or business address and telephone number are stated below.",
+    "requiredBodyClauses": [
+      "physicalDescriptionOfRecipient"
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "serverPhone"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "DE": {
+    "qualificationText": "I, {{serverName}}, being duly verified, state that I am at least eighteen (18) years of age, not a party to this action, and a Special Process Server duly appointed and registered with the Court pursuant to Del. Super. Ct. Civ. R. 4(d).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "appointmentOrderNumber"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "FED": {
+    "qualificationText": "I, {{serverName}}, declare that I am at least 18 years old and not a party to this action (Fed. R. Civ. P. 4(c)(2)). My server's address is stated below.",
+    "requiredBodyClauses": [
+      "cameToHandDate"
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "FL": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the above-styled action, and am a Certified Process Server (CPS #{{licenseNumber}}) or Special Process Server duly appointed in the circuit or county where service was made pursuant to Fla. Stat. \u00a7\u00a7 48.021 / 48.27. This process came to hand on the date and at the time stated above (Fla. Stat. \u00a7 48.21(1)). I placed the date and time of service and my identification number and initials on the first page of the copy served (Fla. Stat. \u00a7 48.031(5)).",
+    "requiredBodyClauses": [
+      "This process came to hand on the date and at the time stated above (Fla. Stat. \u00a7 48.21(1)).",
+      "I placed the date and time of service and my identification number and initials on the first page of the copy served (Fla. Stat. \u00a7 48.031(5))."
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "cameToHandDateTime"
+    ],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the above-styled action, and am a Certified Process Server (CPS #{{licenseNumber}}) or Special Process Server duly appointed in the circuit or county where service was attempted pursuant to Fla. Stat. \u00a7\u00a7 48.021 / 48.27. This process came to hand on the date and at the time stated above (Fla. Stat. \u00a7 48.21(1))."
+  },
+  "GA": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am a Citizen of the United States, at least eighteen (18) years of age, not a party to this action, not related to or employed by any party or attorney herein, and am a Certified Process Server pursuant to O.C.G.A. \u00a7 9-11-4.1 (Cert. No. {{licenseNumber}}) AND/OR permanently or specially appointed by the Court pursuant to O.C.G.A. \u00a7 9-11-4(c).",
+    "requiredBodyClauses": [
+      "cameToHandDate"
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "appointmentOrderDate",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "HI": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and an Independent Civil Process Server registered with the Hawaii Department of Law Enforcement pursuant to HRS Chapter 634D (Reg. No. {{licenseNumber}}).",
+    "requiredBodyClauses": [
+      "Service was NOT made between the hours of 10:00 p.m. and 6:00 a.m. on premises not open to the public without written approval of a judge (Haw. R. Civ. P. 4(b)(11))."
+    ],
+    "requiredFooterFields": [
+      "licenseNumber"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "IA": {
+    "qualificationText": "I, {{serverName}}, certify that I am over the age of eighteen (18) years and am neither a party to this action nor the attorney for a party to this action (Iowa R. Civ. P. 1.302(4)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true
+  },
+  "ID": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to the above-entitled action (I.R.C.P. 4(c)(1)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true
+  },
+  "IL": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of 18 years, not a party to this action, and a Registered Employee of a licensed Private Detective Agency under 225 ILCS 447 (and, for Cook County service, duly registered under the Cook County Sheriff's Order of Registration), or a person appointed by the court under 735 ILCS 5/2-202.",
+    "requiredBodyClauses": [
+      "Physical description of person served: Sex: {{recipientSex}}, Race: {{recipientRace}}, Approx. Age: {{recipientAge}} (735 ILCS 5/2-203(b))."
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "agencyLicenseNumber",
+      "recipientPhysicalDescription"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "IN": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to this action (Ind. R. Trial P. 4.12 / 4.15).",
+    "requiredBodyClauses": [
+      "A copy of the summons and complaint was sent by first class mail to the address on the summons of the person being served, and this fact must be shown upon this return (Ind. R. Trial P. 4.1(B))."
+    ],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true
+  },
+  "KS": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and duly appointed/authorized to serve process pursuant to K.S.A. 60-303(d)(3).",
+    "requiredBodyClauses": [
+      "Notice: This return of service must be filed with the court promptly and in any event no later than 14 days after service (K.S.A. 60-312(d))."
+    ],
+    "requiredFooterFields": [
+      "appointmentAuthority"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "KY": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and for in-state service a Special Bailiff duly appointed under Ky. R. Civ. P. 4.01(1), or a person authorized by the law of the place where service is made for out-of-state service under Ky. R. Civ. P. 4.04.",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "appointmentOrderDate",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "LA": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am of the age of majority, not a party to this action, and duly appointed by Order of the Court dated {{appointmentOrderDate}} pursuant to La. C.C.P. art. 1293, or authorized for out-of-state service pursuant to La. R.S. 13:3204.",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "appointmentOrderDate",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "MA": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and a Constable / Special Process Server duly appointed by the Court pursuant to Mass. R. Civ. P. 4(c).",
+    "requiredBodyClauses": [
+      "If served at last and usual place of abode: I further certify that I mailed a copy of the process via first-class mail, postage prepaid, to the Defendant at said last and usual place of abode (G.L. c. 223, \u00a7 31)."
+    ],
+    "requiredFooterFields": [
+      "appointmentOrderDateOrConstableInfo"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "MD": {
+    "qualificationText": "I, {{serverName}}, state that I am a competent private person, eighteen (18) years of age or older, and not a party to the above-entitled action (Md. Rule 2-123(a)). My mailing address and telephone number are stated below (Md. Rule 2-126(a)(3)).",
+    "requiredBodyClauses": [
+      "Physical description of individual served: Sex: {{recipientSex}}, Race: {{recipientRace}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}} (Md. Rule 2-126(a)(1))."
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "serverPhone",
+      "recipientPhysicalDescription"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "ME": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, and a Deputy Sheriff, Constable, or person specially appointed by the Court to serve process pursuant to M. R. Civ. P. 4(b) and 4(c).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "serverAuthority",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "MI": {
+    "qualificationText": "I, {{serverName}}, state that I am a legally competent adult eighteen (18) years of age or older and not a party or an officer of a corporate party to this action (MCR 2.103(A)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "serviceFee",
+      "mileageFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "MN": {
+    "qualificationText": "I, {{serverName}}, state that I am not less than eighteen (18) years of age and not a party to the above-entitled action (Minn. R. Civ. P. 4.02).",
+    "requiredBodyClauses": [
+      "Service was not made on a Sunday (Minn. Stat. \u00a7 624.04) or on a statutory legal holiday (Minn. Stat. \u00a7 645.44, subd. 5)."
+    ],
+    "requiredFooterFields": [
+      "signingCounty",
+      "signingState"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "MO": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am over the age of eighteen (18) years, not a party to this action, am duly appointed/authorized to serve process, and make this affidavit as to the time, place and manner of service pursuant to Mo. R. Civ. P. 54.20 / 54.21 / 54.22 (Appointment/Registration No. {{licenseNumber}}).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "appointmentOrderNumber",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "MS": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age and not a party to this action (M.R.C.P. 4(c)(1)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "MT": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action (M. R. Civ. P. 4(d)(2)), and am a Registered Process Server in {{registrationCounty}} County, State of Montana (Reg. No. {{licenseNumber}}), or exempt from registration under Mont. Code Ann. \u00a7 25-1-1101 as a person making ten (10) or fewer services per calendar year. I further state that I am of legal age and knew the person served to be the person named in the papers served (M. R. Civ. P. 4(r)(4)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "registrationCounty"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "NC": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least twenty-one (21) years of age, not a party to the action, and not related by blood or marriage to a party to the action or to a person upon whom service is to be made, and am qualified to make service under N.C. R. Civ. P. 4(a), 4(h), 4(h1), or 4(j3).",
+    "requiredBodyClauses": [
+      "I knew the person served to be the party mentioned in the summons and delivered to and left with him/her a copy (N.C. Gen. Stat. \u00a7 1-75.10(a)(1)b)."
+    ],
+    "requiredFooterFields": [
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false,
+    "qualificationTextUnserved": "I, {{serverName}}, being duly sworn, depose and state that I am at least twenty-one (21) years of age, not a party to the action, and not related by blood or marriage to a party to the action or to a person upon whom service is to be made, and am qualified to make service under N.C. R. Civ. P. 4(a), 4(h), 4(h1), or 4(j3)."
+  },
+  "ND": {
+    "qualificationText": "I, {{serverName}}, state that I am of legal age (eighteen (18) years or older) and am neither a party to nor interested in the above-entitled action (N.D.R.Civ.P. 4(d)(1)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "signingCounty",
+      "signingState"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "NE": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age, not a party to this action{{courtAppointmentOrder}}.",
+    "courtAppointmentOrderClause": ", and duly appointed to serve this process pursuant to Neb. Rev. Stat. \u00a7\u00a7 25-506.01 / 25-507 (or authorized by the law of the jurisdiction where out-of-state service was made pursuant to Neb. Rev. Stat. \u00a7 25-540)",
+    "requiredBodyClauses": [
+      "cameToHandDate"
+    ],
+    "requiredFooterFields": [
+      "appointmentAuthority",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "NH": {
+    "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to this action (N.H. Super. Ct. R. 4(c)(1) / RSA 510:2).",
+    "requiredBodyClauses": [
+      "At the time of service, I indicated on the writ or process delivered to the Defendant the time, place, and mode of service made upon the Defendant (RSA 510:2-a)."
+    ],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to this action (N.H. Super. Ct. R. 4(c)(1) / RSA 510:2)."
+  },
+  "NJ": {
+    "qualificationText": "I, {{serverName}}, residing or having a business address as stated below, state that I am a competent adult at least eighteen (18) years of age, not a party to this action, and have no direct interest in the litigation (N.J. Ct. R. 4:4-3(a); 4:4-7).",
+    "requiredBodyClauses": [
+      "Physical description of person served: Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}.",
+      "I am not a sheriff or a court appointee; the facts of my diligent inquiry regarding defendant's place of abode, business, or employment are as stated in this affidavit (N.J. Ct. R. 4:4-7)."
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "recipientPhysicalDescription"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "NM": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years and not a party to the above-entitled action (Rule 1-004(D)(1) NMRA).",
+    "requiredBodyClauses": [
+      "If service was made by social media, e-mail, or text message, this affidavit includes copies of the messages sent, the e-mail address, social media user name, and/or phone number used, the dates of such service, and the date of mailing (NMRA Rule 1-004(L))."
+    ],
+    "requiredFooterFields": [
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "NV": {
+    "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age, not a party to this action (NRCP 4(c)(3)), and hold a Nevada Private Investigator's Licensing Board Process Server permit or work permit under NRS 648.112.",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "licenseNumber"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "NY": {
+    "qualificationText": "I, {{serverName}}, affirm that I am over the age of eighteen (18) years, not a party to this action, and reside at the address stated below (N.Y. CPLR 2103(a)) (NYC DCWP License No. {{licenseNumber}}).",
+    "requiredBodyClauses": [
+      "Description of person served (CPLR 306(b)): Sex: {{recipientSex}}, Skin Color: {{recipientRace}}, Hair Color: {{recipientHair}}, Approx. Age: {{recipientAge}}, Approx. Height: {{recipientHeight}}, Approx. Weight: {{recipientWeight}}.",
+      "Military Service Inquiry: I asked the person spoken to whether the Defendant/Recipient was in active military service of the United States or of the State of New York in any capacity whatever, and received a negative reply."
+    ],
+    "requiredFooterFields": [
+      "licenseNumberIfNYC",
+      "recipientPhysicalDescription",
+      "militaryInquiry"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "OH": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age, not a party to this action, and have been designated by Order of the Court / Standing Appointment (Order No. {{licenseNumber}}) to make personal/residence service pursuant to Ohio Civ.R. 4.1(B)(2).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "appointmentOrderNumber",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "OK": {
+    "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age, not a party to this action, and a licensed Private Process Server in and for the State of Oklahoma, License No. {{licenseNumber}} (12 O.S. \u00a7 158.1; 12 O.S. \u00a7 2004).",
+    "requiredBodyClauses": [
+      "cameToHandDate"
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "serviceFee"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "OR": {
+    "qualificationText": "I, {{serverName}}, certify that I am a competent person 18 years of age or older, a resident of the State of Oregon or the State in which service was made, and am not a party to the action nor an officer, director, or employee of, nor attorney for, any party, corporate or otherwise (ORCP 7 E; ORCP 7 F(2)(a)(i)). I further certify that I knew that the person, firm, or corporation served is the identical one named in the action (ORCP 7 F(2)(a)(i)).",
+    "requiredBodyClauses": [
+      "I further certify that I knew that the person, firm, or corporation served is the identical one named in the action (ORCP 7 F(2)(a)(i))."
+    ],
+    "requiredFooterFields": [
+      "serverStateOfResidence"
+    ],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, certify that I am a competent person 18 years of age or older, a resident of the State of Oregon or the State in which service was attempted, and am not a party to the action nor an officer, director, or employee of, nor attorney for, any party, corporate or otherwise (ORCP 7 E; ORCP 7 F(2))."
+  },
+  "PA": {
+    "qualificationText": "I, {{serverName}}, verify that I am a competent adult eighteen (18) years of age or older and am neither a party to the action nor an employee or a relative of a party (Pa.R.C.P. No. 76; Rule 400.1 / 400(b) / 404).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true
+  },
+  "RI": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age and not a party to the above-entitled action (R.I. Super. R. Civ. P. 4(c)) (Certified Constable License No. {{licenseNumber}}).",
+    "requiredBodyClauses": [
+      "Service was not made on Sunday in violation of R.I. Gen. Laws \u00a7 9-5-24."
+    ],
+    "requiredFooterFields": [
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "SC": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am not less than eighteen (18) years of age and am neither an attorney in nor a party to this action (SCRCP 4(c)).",
+    "requiredBodyClauses": [
+      "Service was not made on Sunday in violation of S.C. Code Ann. \u00a7 15-9-17.",
+      "If the name and address of the person actually served were not known, this affidavit states a description of the person actually served in lieu of that name and address (SCRCP 4(g))."
+    ],
+    "requiredFooterFields": [
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "SD": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and at the time of making service was an elector of the State of {{serverStateOfResidence}} (SDCL 15-6-4(c)). I knew the person served to be the person named as Defendant in the summons (SDCL 15-7-8).",
+    "requiredBodyClauses": [
+      "I knew the person served to be the person named as Defendant in the summons (SDCL 15-7-8)."
+    ],
+    "requiredFooterFields": [
+      "serverElectorState"
+    ],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to this action, and at the time of attempting service was an elector of the State of {{serverStateOfResidence}} (SDCL 15-6-4(c))."
+  },
+  "TN": {
+    "qualificationText": "I, {{serverName}}, residing or having a business address as stated below, state that I am not less than eighteen (18) years of age and not a party to this action (Tenn. R. Civ. P. 4.01(2)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "serverAddress"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "TX": {
+    "qualificationText": "I, {{serverName}}, state that I am over the age of eighteen (18) years, not a party to nor interested in the outcome of this suit, and am certified by the Texas Judicial Branch Certification Commission to serve process, Certification No. {{licenseNumber}}, Expiration Date: {{licenseExpirationDate}} (Tex. R. Civ. P. 103; 107(b)(10)).",
+    "requiredBodyClauses": [
+      "The process came to hand on the date and at the time stated above (Tex. R. Civ. P. 107(b)(4))."
+    ],
+    "requiredFooterFields": [
+      "licenseNumber",
+      "licenseExpirationDate",
+      "serverAddress"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "UT": {
+    "qualificationText": "I, {{serverName}}, declare that I am eighteen (18) years of age or older at the time of service, am neither a party to this action nor a party's attorney (Utah R. Civ. P. 4(d)(1)), and am not disqualified under Utah Code \u00a7 78B-8-302(7) (I have not been convicted of a felony sex offense requiring registration and am not a respondent under an active protective order or stalking injunction).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "signingCity",
+      "signingState"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "VA": {
+    "qualificationText": "I, {{serverName}}, whose address and telephone number are stated below, being duly sworn, state that I am of age eighteen (18) years or older and am not a party to or otherwise interested in the subject matter in controversy in this action (Va. Code \u00a7\u00a7 8.01-293, 8.01-325(3)).",
+    "requiredBodyClauses": [
+      "Notice: This return must be filed with the Clerk's Office within 72 hours after service (Va. Code \u00a7 8.01-294)."
+    ],
+    "requiredFooterFields": [
+      "serverAddress",
+      "serverPhone",
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "VT": {
+    "qualificationText": "I, {{serverName}}, state that I am a Sheriff, Deputy Sheriff, Constable, or Indifferent Person specially appointed for this purpose by the Court pursuant to V.R.C.P. 4(c), or a person authorized to serve process in the place of out-of-state service under V.R.C.P. 4(e).",
+    "requiredBodyClauses": [
+      "I endorsed the date of service upon the copy of the process left with the Defendant or other person (V.R.C.P. 4(i))."
+    ],
+    "requiredFooterFields": [
+      "serverAuthority",
+      "dateEndorsedOnCopyConfirm"
+    ],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, state that I am a person authorized to serve process \u2014 Sheriff, Deputy Sheriff, Constable, Indifferent Person specially appointed for this purpose by the Court, or a person authorized to serve process in the place of out-of-state service (V.R.C.P. 4(c), 4(e))."
+  },
+  "WA": {
+    "qualificationText": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, and not a party to this action (CR 4(c)); service was made in the State of {{serviceStateName}} by a person authorized under the law of that state (CR 4(e)(2); RCW 4.28.180).",
+    "qualificationTextUnserved": "I, {{serverName}}, declare that I am over the age of eighteen (18) years, competent to be a witness, and not a party to this action (CR 4(c)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [
+      "signingCity",
+      "signingState"
+    ],
+    "generalUnswornStatuteAvailable": true
+  },
+  "WI": {
+    "qualificationText": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action. I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. \u00a7 801.10(4)(a)). At the time of service, I endorsed upon the copy of the summons served my signature, and my title, if any, together with the time and date of service, the place and manner of service, and upon whom service was made (Wis. Stat. \u00a7 801.10(2)).",
+    "requiredBodyClauses": [
+      "I knew the person, firm, or corporation served to be the Defendant mentioned in the summons and delivered to and left with the Defendant a true copy thereof (Wis. Stat. \u00a7 801.10(4)(a)).",
+      "At the time of service, I endorsed upon the copy of the summons served my signature, and my title, if any, together with the time and date of service, the place and manner of service, and upon whom service was made (Wis. Stat. \u00a7 801.10(2))."
+    ],
+    "requiredFooterFields": [
+      "serverStateOfResidence",
+      "endorsedServedCopyConfirm"
+    ],
+    "generalUnswornStatuteAvailable": true,
+    "qualificationTextUnserved": "I, {{serverName}}, state that I am an adult resident of the State of {{serverStateOfResidence}} and am not a party to this action."
+  },
+  "WV": {
+    "qualificationText": "I, {{serverName}}, being duly sworn, depose and state that I am at least eighteen (18) years of age and not a party to the above-entitled action (W. Va. R. Civ. P. 4(c)(2); 4(h)(1)).",
+    "requiredBodyClauses": [
+      "Service was not made on a Sunday in violation of W. Va. Code \u00a7 56-3-16."
+    ],
+    "requiredFooterFields": [
+      "notarizationDate"
+    ],
+    "generalUnswornStatuteAvailable": false
+  },
+  "WY": {
+    "qualificationText": "I, {{serverName}}, state that I am at least eighteen (18) years of age and not a party to the above-entitled action (W.R.C.P. 4(c)(1)).",
+    "requiredBodyClauses": [],
+    "requiredFooterFields": [],
+    "generalUnswornStatuteAvailable": true
+  }
+}
